@@ -3,12 +3,12 @@ body{
     margin: 0;
 
 }
-section{
+.flexable-contaner{
     display: flex;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .first-page{
     background-image: url(/images/top-banner.png);
@@ -44,6 +44,38 @@ h1{
     padding:25px;
     
 }
+.third-page{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
 .img2{
-    width: 600px;
+    width: 700px;
+  
+    
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 15px;
+    border-radius: 10px;
+  
+}
+.border-red{
+    border-left: 5px solid;
+     border-image:linear-gradient(orange,red); 
+     border-image-slice: 1;
+}
+.border-blue{
+    border-left: 5px solid;
+     border-image:linear-gradient(blue,tomato); 
+     border-image-slice: 1;
+    
+}
+footer {
+    text-align:center;
+    margin-bottom: 20px;
+
 }
